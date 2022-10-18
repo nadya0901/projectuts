@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from . models import Dosen, Fasilitas
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
@@ -11,13 +11,20 @@ def struktur(request):
     return render(request, 'struktur.html')
 
 def dosen(request):
-    return render(request, 'dosen.html')
 
-def kalender(request):
-    return render(request, 'kalender.html')
+    dosen = Dosen.objects.all()
+    konteks = {
+        'dataDosen': dosen,
+    }
+    return render(request, 'dosen.html', konteks)
 
 def fasilitas(request):
-    return render(request, 'fasilitas.html')
+
+    fasilitas = Fasilitas.objects.all()
+    konteks = {
+        'dataFasilitas': fasilitas,
+    }
+    return render(request, 'fasilitas.html', konteks)
 
 def akreditasi(request):
     return render(request, 'akreditasi.html')

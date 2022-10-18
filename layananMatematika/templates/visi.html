@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,11 +9,33 @@
     <!--CSS Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!--Akhir CSS Bootstrap-->
+    <style>
+      footer {
+    height: 300px;
+    margin-top: 40px;
+}
+
+.foot-title {
+    font-weight: bold;
+    margin-left: 20px;
+    color: #fff;
+    font-size: x-large;
+}
+
+.foot-right {
+    width: 320px;
+    color: #fff;
+}
+
+.foot-container {
+    padding-top: 40px;
+}
+    </style>
 </head>
 <body>
     <!--Navbar-->
     <img src="http://matematika.fkip.untirta.ac.id/wp-content/uploads/2022/08/PENDIDIKAN-MATEMATIKA-300-%C3%97-80-piksel-800-%C3%97-80-piksel-4.png" />
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-warning">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -35,7 +58,7 @@
                   Akademik
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/kalender">Kalender Akademik</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/file/d/1mI0JKGRjnxLwNtLusU8lFafC7dO0nHAB/view">Kalender Akademik</a></li>
                   <li><a class="dropdown-item" href="/fasilitas">Fasilitas</a></li>
                   <li><hr class="dropdown-divider"></li>
                 </ul>
@@ -59,7 +82,42 @@
         </div>
       </nav>
       <!--Akhir Navbar-->
-      <h1>Visi Keilmuan</h1>
+      <center>
+        <h1>VISI KEILMUAN</h1>
+      </center>
+      <center>
+        <p style="font-family:'times new roman'">Visi Keilmuan</p>
+        <p style="font-family:'times new roman'">Menghasilkan calon pendidik di bidang pendidikan matematika yang unggul, berkarakter dan berdaya saing di Kawasan ASEAN tahun 2030</p>
+        <p style="font-family:'times new roman'">Tujuan</p>
+      </center>
+        <ol style="display: flex; flex-direction: column; justify-content:center; align-items:center;">
+          <li>Menghasilkan Program Studi Pendidikan Matematika sebagai lembaga bermutu dalam bidang Pendidikan Matematika dan berdaya saing di kawasan ASEAN</li>
+          <li>Mewujudkan dosen dan pegawai di Program Studi Pendidikan Matematika yang bermutu dan kompeten</li>
+          <li>Menghasilkan lulusan Program Studi Pendidikan Matematika yang unggul, berkarakter, dan berdaya saing di Kawasan ASEAN</li>
+          <li>Program Studi Pendidikan Matematika menghasilkan produktivitas penelitian dan pengabdian masyarakat yang tinggi</li>
+          <li>Program Studi Pendidikan Matematika menghasilkan publikasi dosen yang bereputasi internasional</li>
+          <li>Program Studi Pendidikan Matematika menghasilkan hilirisasi riset yang dapat dimanfaatkan para pemangku kepentingan</li>
+          <li>Program Studi Pendidikan Matematika membantu FKIP dalam menghasilkan daya dukung kelembagaan yang bermutu dan berdaya saing</li>
+          <li>Program Studi Pendidikan Matematika membantu FKIP dalam menghasilkan sistem monitoring dan evaluasi tata kelola yang berkelanjutan</li>
+        </ol>
+
+        <footer class="bg-warning">
+          <div class="container">
+              <div class="foot-container d-flex justify-content-between align-items-start">
+                  <div class="foot-logo d-flex align-items-center">
+                      <img src="https://untirta.ac.id/wp-content/uploads/2020/05/logo.png" alt="logo" width="100px">
+                      <p class="foot-title">LAYANAN AKADEMIK<br>UNTIRTA</p>
+                  </div>
+                  <div class="foot-right">
+                      <h3>Contact :</h3>
+                      <p>Jl. Raya Palka Km 3 Sindangsari, Pabuaran, Kab. Serang Provinsi Banten</p>
+                      <p>Telp : +62254 3204321</p>
+                      <p>Fax : +62254 281254</p>
+                      <p>Email : humas@untirta.ac.id</p>
+                  </div>
+              </div>
+          </div>
+        </footer>
      <!--JS Bootstrap-->
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>

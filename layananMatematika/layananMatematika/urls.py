@@ -23,7 +23,6 @@ urlpatterns = [
     path('struktur/', views.struktur),
     path('dosen/', views.dosen),
     path('akreditasi/', views.akreditasi),
-    path('kalender/', views.kalender),
     path('fasilitas/', views.fasilitas),
     
 ]
